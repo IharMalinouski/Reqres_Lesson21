@@ -9,7 +9,7 @@ public class CreateUserTest {
 
     @Test
     public void createUserTest() {
-        CreateAndUpdateUser createUser = CreateAndUpdateUser.builder()
+        CreateAndUpdateUser  createUser = CreateAndUpdateUser.builder()
                 .name("Ihar")
                 .job("QA")
                 .build();
